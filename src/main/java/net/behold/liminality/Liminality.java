@@ -28,6 +28,8 @@ public class Liminality {
     public Liminality(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
+        modEventBus.addListener(ModBlockModels::gather);
+
         ModBlocks.BLOCKS.register(modEventBus);
         ModBlocks.ITEMS.register(modEventBus);
         ModCreativeTab.TABS.register(modEventBus);
