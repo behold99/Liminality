@@ -1,0 +1,13 @@
+{
+  "itemGroup.liminality": "Example Mod Tab",
+  "block.liminality.example_block": "Example Block",
+  "item.liminality.example_item": "Example Item",
+
+  "liminality.configuration.title": "Liminality Configs",
+  "liminality.configuration.section.liminality.common.toml": "Liminality Configs",
+  "liminality.configuration.section.liminality.common.toml.title": "Liminality Configs",
+  "liminality.configuration.items": "Item List",
+  "liminality.configuration.logDirtBlock": "Log Dirt Block",
+  "liminality.configuration.magicNumberIntroduction": "Magic Number Text",
+  "liminality.configuration.magicNumber": "Magic Number"
+}
