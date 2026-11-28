@@ -1,5 +1,6 @@
 package net.behold.liminality;
 
+import net.minecraft.client.data.models.ModelProvider;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -7,7 +8,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.resources.Identifier;
 import net.neoforged.neoforge.data.event.GatherDataEvent;
 
-public class ModBlockModels {
+public class ModBlockModels extends ModelProvider {
 
     public ModBlockModels(PackOutput output) {
         super(output, Liminality.MOD_ID);
